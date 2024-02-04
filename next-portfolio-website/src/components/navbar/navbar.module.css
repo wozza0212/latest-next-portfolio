@@ -1,0 +1,44 @@
+.navbar {
+    width: 100%;
+}
+
+.nav-list {
+    height: 3em;
+    background-color: aliceblue;
+    display: flex;
+    padding:0;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    color: black;
+    gap :0.25em;
+}
+
+.navbar li {
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.left {
+    margin-right: auto;
+}
+
+.end {
+    margin-right: 1em;
+}
+
+.logo{
+    margin-left: 1em;
+}
+
+/* colours
+black #1A1A1D
+grey #4E4E50
+maroon red #6F2232
+light red #950740
+bright red #C3073F
+
+https://visme.co/blog/website-color-schemes/
+*/
