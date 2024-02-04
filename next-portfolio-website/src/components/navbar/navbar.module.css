@@ -1,5 +1,9 @@
 .navbar {
+    position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 1000;
+    padding-bottom: 10px;
 }
 
 .nav-list {
@@ -14,11 +18,10 @@
     gap :0.25em;
 }
 
-.navbar li {
+.navbar a {
     padding: 8px;
     border: 2px solid black;
     border-radius: 5px;
-
 }
 
 .left {
@@ -31,6 +34,7 @@
 
 .logo{
     margin-left: 1em;
+    margin-right: 1em;
 }
 
 /* colours
