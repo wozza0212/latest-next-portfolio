@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import styles from "./navbar.module.css";
+import { Home } from 'react-feather'
 
 const NavBar = () => {
   return (
@@ -15,18 +16,18 @@ const NavBar = () => {
           height={24}
         />
         <Link href="/" className={styles["left"]}>
-          <li>Home</li>
+          <li><Home/></li>
         </Link>
-        <Link href="/about">
+        <Link href="/pages/about">
           <li>About</li>
         </Link>
-        <Link href="/projects">
+        <Link href="/pages/projects">
           <li>Projects</li>
         </Link>
-        <Link href="/blog">
+        <Link href="/pages/blog">
           <li>Blog</li>
         </Link>
-        <Link href="/contact" className={styles["end"]}>
+        <Link href="/pages/contact" className={styles["end"]}>
           <li>Contact</li>
         </Link>
       </ul>
